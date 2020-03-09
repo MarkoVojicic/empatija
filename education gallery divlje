@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Dobrodosli!</title>
+		<link rel="stylesheet" type="text/css" href="empatija.css">
+    </head>
+     <body>
+            <div class="form-box">
+
+		<div>
+            <div id="content">
+            <h1>Lorem Ipsum</h1>
+            <hr color="white" style="width: 30%"></hr>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<br> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', </br>making it look like readable English.</p>
+            </div>
+            
+            <div id="slike2">
+                <img src="slike2.png" width="300px" height="350px">
+            </div>
+            <div id="slike3">
+                <img src="slike3.png" width="300px" height="350px">
+            </div>    
+            <div id="slike">
+            <img src="slike.png" width="600px" height="450px">
+            </div>
+            <div>
+            <button onclick="left()" id="left"> < </button>
+            <button onclick="right()" id="right"> > </button>
+            </div>
+            <div>
+            <button onclick="logIn()" id="logIn"> Log In </button>
+            <button onclick="signUp()" id="signUp"> Sign Up </button>  
+        </div>              
+        </div>
+        </div>
+    </div>
+    <div id="glavnaSlika">
+        <img src="empatija.png" width="600px" height="500px">
+    </div>
+    <div id="probaX">
+        <button onclick="back()" id="back"> X </button>
+    </div>  
+	</body>
+</html>
+
+
+
